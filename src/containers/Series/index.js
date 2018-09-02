@@ -12,7 +12,7 @@ class Series extends Component{
     render(){
         return(
             <div>
-                Length of array {this.state.series.length}
+                This measures the length of an array that is pulled from an api: {this.state.series.length}
             </div>
         )
     }

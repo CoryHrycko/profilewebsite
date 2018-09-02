@@ -5,6 +5,7 @@
     width: 100%;
     background: #521751;
     height: 5em;
+    z-index: 150;
 }
 .toolBarNav{
     display: flex;
