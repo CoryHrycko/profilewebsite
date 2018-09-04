@@ -4,7 +4,7 @@ import './index.css';
 
 const Intro = props =>  (
 <div className='pageOne'>
-<div className="block text-center">
+<div className="block">
 <h1 className='j1'>Cory Hrycko</h1>
   <h3 className='j3'> &lt;Something Sick&gt; </h3>
   </div>

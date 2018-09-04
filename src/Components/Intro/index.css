@@ -19,12 +19,13 @@
   margin-top: auto;
   margin-right: auto;
   margin-left:auto;
+  align-items: center;
   border-radius:2.5%
-    
 }
 .j1{
     text-align: center;
     color:rgb(220,220,220	);
+    margin-top:55%;
 }
 .j3{
     text-align: center;
@@ -38,24 +39,35 @@ h1{
 }
 .btn-default{
   Background-color: rgb(0,0,0,0.3);
+  display:flex;
+  opacity:.8;
   Border-color: black;
   text-decoration: none;
   color:rgb(220,220,220	);
   font-size:1.65em;
   margin-top:1%;
   margin-right: 1em;
-    
+}
+.btn-default a:hover,
+.btn-default a:active{
+  color: #fa923f;
 }
 .btnlistTextCenter{
     display: flex;
     text-align: center;
     justify-content: center;
-
+    align-items: center;
+}
+.btnlistTextCenter a:hover,
+.btnlistTextCenter a:active{
+  color: #fa923f;
 }
 .pageOne{
-    Background:Url("https://images.unsplash.com/photo-1479409286066-c0b2f4f4a332?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=575b768164dcdd8f8b9f375d3a38cca6&auto=format&fit=crop&w=1414&q=80");
+    background: url('https://images.unsplash.com/photo-1518128160709-c575457dafa5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=98c513c67fdaf3f85d97358561a4d027&auto=format&fit=crop&w=1824&q=80');
     Background-size:cover;
     padding-bottom:100%;
+    align-items: center;
+    margin-top:-10%;
     height:100%;
     z-index: 100;
 }

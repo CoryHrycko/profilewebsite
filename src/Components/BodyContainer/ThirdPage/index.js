@@ -4,10 +4,10 @@ import './index.css'
 
 
 const BodyContainer3 = props => (
-    <div className ="pageTwo">
+    <div className ="page3">
         <div className ="row">
             <div className ="col-sm-6 text-center">
-                <h2> This is where the main discord stats are going to show
+                <h2> This is where the main discord stats are going to show for Casa De La Snek
                 </h2>
                 <p>
                     <Series />

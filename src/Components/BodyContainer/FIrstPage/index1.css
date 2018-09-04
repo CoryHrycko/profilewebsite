@@ -20,6 +20,8 @@
 }
 .attractionBlock{
     background:rgb(240,240,230,.7) ;
+    border-width:3px;
+    Border-color: black;
     padding: 3em;
     justify-content: center;
     margin-top:20%;
@@ -27,6 +29,7 @@
 .Contenttitle{
     display:flex;
     align-items: center;
+    text-align: center;
 }
 .attractionBlock a{
     color:black;
