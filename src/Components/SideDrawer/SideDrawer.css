@@ -33,3 +33,8 @@
 .sideDrawer a:active{
     color: #fa923f
 }
+@media (min-width: 769px){
+    .sideDrawer {
+        display: none;
+    }
+}

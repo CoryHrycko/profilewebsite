@@ -5,7 +5,7 @@ import './Toolbar.css';
 const toolbar = props => (
     <header className='toolBar'>
         <nav className='toolBarNav'>
-            <div>
+            <div className="toolBarToggle">
                 <DrawerToggleButton click={props.drawerClickHandler}/>
             </div>
             <div className='toolBarLogo'><a href='root'><i class="fa fa-circle-o-notch" aria-hidden="true"></i> Cory Hrycko's Website</a></div>

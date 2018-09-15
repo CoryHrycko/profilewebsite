@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     background: #521751;
-    height: 5em;
+    height: 3em;
     z-index: 150;
 }
 .toolBarNav{
@@ -24,6 +24,7 @@
 .spacer {
     flex:1;
 }
+  
 .toolBarNavItems ul{
     list-style: none;
     margin:0;
@@ -41,4 +42,35 @@
 .toolBarNavItems a:hover,
 .toolBarNavItems a:active {
     color: #fa923f;
+}
+
+@media (max-width: 768px){
+    .toolBarNavItems{
+        display: none;
+    }
+}
+@media (max-width: 530px){
+    @media(min-width:340px){
+        .toolBarLogo a{
+         font-size: 6vw;
+         text-align: center;
+        }
+    }
+}
+@media (max-width: 339px){
+        .toolBarLogo a{
+         font-size: 4vw;
+         text-align: center;
+        }
+        .toolBar{
+            height: 2em
+        }
+}
+@media(min-width: 769px) {
+    .toolBarToggle{
+        display:none;
+    }
+    .toolBarLogo{
+        margin-left:0;
+    }
 }
