@@ -1,0 +1,182 @@
+#twitterIcon {
+  color: #00aced;
+}
+
+#githubIcon {
+  color: #662b81;
+}
+
+#linkedinIcon {
+  color: #007fb2;
+}
+
+#facebookIcon {
+  color: #3b59a3;
+}
+
+.block {
+  opacity: 7;
+  padding: .2em;
+  width: 50%;
+  margin-top: -0em;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 2.5%;
+  z-index: 150;
+}
+
+.j1 {
+  text-align: center;
+  color: gainsboro;
+  margin-top: 55%;
+  z-index: 150;
+}
+
+.j3 {
+  text-align: center;
+  color: gainsboro;
+  z-index: 150;
+}
+
+h1 {
+  padding: 0;
+  margin-top: 0px;
+  font-size: 4.5em;
+  padding-top: 0%;
+}
+
+.btnlistTextCenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btnlistTextCenter a:hover,
+.btnlistTextCenter a:active {
+  color: #fa923f;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.pageOne {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url("https://images.unsplash.com/photo-1529753944348-a67f54c92321?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=14223dae43d715b8a26d17911dee7de5&auto=format&fit=crop&w=2222&q=80");
+  background-size: cover;
+  padding-bottom: 30%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -20%;
+  z-index: 97;
+}
+
+.pageOne .fadeBlock2 {
+  -webkit-transition: 2s;
+  transition: 2s;
+  z-index: 97;
+  margin: 10%;
+}
+
+.pageOne .fadeBlock2 .btn-default {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  opacity: .8;
+  border-color: black;
+  text-decoration: none;
+  color: gainsboro;
+  font-size: 1.65em;
+  margin-top: -1%;
+  margin-right: 1em;
+}
+
+.pageOne .fadeBlock2 .btn-default .btn-default a:hover,
+.pageOne .fadeBlock2 .btn-default .btn-default a:active {
+  color: #fa923f;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.pageOne .fadeBlock2 .btn-default .btnlistTextCenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pageOne .fadeBlock2 .btn-default .btnlistTextCenter a:hover,
+.pageOne .fadeBlock2 .btn-default .btnlistTextCenter a:active {
+  color: #fa923f;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.pageOne .fadeBlock1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -12em;
+  padding: 10px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 600px;
+  height: 450px;
+  background: rgba(0, 0, 0, 0);
+  background-position: center;
+  z-index: 97;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.pageOne .fadeBlock2:hover {
+  -webkit-box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.fadeBlock0 {
+  width: 100%;
+  height: 100%;
+}
+
+.anim {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.anim::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 105;
+}
+
+.anim .j1 {
+  opacity: 0;
+  -webkit-animation: animateText .7s forwards;
+          animation: animateText .7s forwards;
+}
+/*# sourceMappingURL=main.css.map */
