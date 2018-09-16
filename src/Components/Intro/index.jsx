@@ -5,9 +5,7 @@ import './CSS/main.css';
 const Intro = props =>  (
   <div className='pageOne'>
     <div className='fadeBlock1'>
-    <div className='fadeBlock2'>
-      <div className="block">
-          <div className='anim'></div>
+          <div className='anim'>
           <h1 className='j1'>Cory Hrycko</h1>
           </div>
             <h3 className='j3'> &lt;Something Sick&gt; </h3>
@@ -18,8 +16,7 @@ Twitter</a>
           <a className ="btn btn-default" href="*"><i class="fa fa-linkedin fa-lg" aria-hidden="true" id="linkedinIcon"></i> LinkedIn</a>
           <a className ="btn btn-default" href="*"><i class="fa fa-facebook-official fa-lg" aria-hidden="true"id="facebookIcon"></i> FaceBook</a>
           </div>
-        </div>
-      </div>
-      </div>
+          </div>
+          </div>
 );
 export default Intro;
