@@ -126,7 +126,10 @@ h1 {
 .pageOne a {
   color: gainsboro;
   text-decoration: none;
-  font-size: 3vw;
+  font-size: 2vw;
+  word-spacing: 2em;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 .pageOne .fadeBlock2 {
@@ -197,9 +200,9 @@ h1 {
 }
 
 .pageOne .fadeBlock1:hover {
-  -webkit-box-shadow: 0 60px 60px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 60px 60px rgba(0, 0, 0, 0.5);
-  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 60px 60px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 60px 60px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.33);
 }
 
 /* first page*/

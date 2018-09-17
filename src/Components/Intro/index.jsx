@@ -9,6 +9,7 @@ const Intro = props =>  (
           <h1 className='j1'>Cory Hrycko</h1>
           </div>
             <h3 className='j3'> &lt;Something Sick&gt; </h3>
+            <br></br>
         <div className ="btnlistTextCenter">
           <a className ="btn btn-default" href="*"><i class="fa fa-twitter fa-lg" id="twitterIcon" aria-hidden="true"></i>
 Twitter</a>
