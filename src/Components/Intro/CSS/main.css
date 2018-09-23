@@ -14,17 +14,38 @@
   color: #3b59a3;
 }
 
-@media only screen and (max-width: 600px) and (min-width: 322) {
+@media (max-width: 530px) and (min-width: 340px) {
   .pageOne {
     margin: 0%;
-    padding: 0%;
+    padding-top: 10%;
     width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .fadeBlock1, .j1, .j3, .btn-default, .btnlistTextCenter {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+  }
+  .j1 {
+    font-size: 12vw;
+    margin-top: 5%;
+  }
+  .j3 {
+    margin-top: 5%;
+    font-size: 5vw;
+  }
+  .btnlistTextCenter {
+    font-size: 1vw;
   }
 }
 
-@media only screen and (max-width: 321px) {
+@media (max-width: 339px) {
   .pageOne {
+    font-size: .5em;
     width: 321px;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
   .pageOne a {
     width: 321px;
@@ -64,6 +85,7 @@
       -ms-flex-align: center;
           align-items: center;
   border-radius: 2.5%;
+  overflow-x: hidden;
   z-index: 150;
 }
 
@@ -72,12 +94,14 @@
   color: gainsboro;
   margin-top: 25%;
   z-index: 150;
+  overflow-x: hidden;
 }
 
 .j3 {
   text-align: center;
   color: gainsboro;
   z-index: 150;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -85,6 +109,7 @@ h1 {
   margin-top: 0px;
   font-size: 4.5em;
   padding-top: 0%;
+  overflow-x: hidden;
 }
 
 .btnlistTextCenter {
@@ -98,6 +123,7 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow-x: hidden;
 }
 
 .btnlistTextCenter a:hover,
@@ -105,6 +131,7 @@ h1 {
   color: #fa923f;
   -webkit-transition: 2s;
   transition: 2s;
+  overflow-x: hidden;
 }
 
 .pageOne {
@@ -120,26 +147,29 @@ h1 {
       -ms-flex-align: center;
           align-items: center;
   margin-top: -20%;
-  z-index: 97;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
-.pageOne a {
+a {
   color: gainsboro;
   text-decoration: none;
   font-size: 2vw;
   word-spacing: 2em;
   -webkit-transition: 2s;
   transition: 2s;
+  overflow-y: hidden;
 }
 
-.pageOne .fadeBlock2 {
+.fadeBlock2 {
   -webkit-transition: 2s;
   transition: 2s;
   z-index: 97;
   margin: 10%;
+  overflow-x: hidden;
 }
 
-.pageOne .fadeBlock2 .btn-default a {
+.fadeBlock2 .btn-default a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -155,14 +185,14 @@ h1 {
   margin-right: 1em;
 }
 
-.pageOne .fadeBlock2 .btn-default a .btn-default a:hover,
-.pageOne .fadeBlock2 .btn-default a .btn-default a:active {
+.fadeBlock2 .btn-default a .btn-default a:hover,
+.fadeBlock2 .btn-default a .btn-default a:active {
   color: #fa923f;
   -webkit-transition: 2s;
   transition: 2s;
 }
 
-.pageOne .fadeBlock2 .btn-default a .btnlistTextCenter {
+.fadeBlock2 .btn-default a .btnlistTextCenter {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -175,8 +205,8 @@ h1 {
           align-items: center;
 }
 
-.pageOne .fadeBlock2 .btn-default a .btnlistTextCenter a:hover,
-.pageOne .fadeBlock2 .btn-default a .btnlistTextCenter a:active {
+.fadeBlock2 .btn-default a .btnlistTextCenter a:hover,
+.fadeBlock2 .btn-default a .btnlistTextCenter a:active {
   color: #fa923f;
   -webkit-transition: 2s;
   transition: 2s;

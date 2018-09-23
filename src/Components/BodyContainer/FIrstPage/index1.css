@@ -26,6 +26,9 @@
     justify-content: center;
     margin-top:20%;
 }
+.attractionBlock:nth-child(1){
+    margin: 15%;
+}
 .Contenttitle{
     display:flex;
     align-items: center;
@@ -41,4 +44,17 @@
 }
 .spacer{
     margin-bottom: 4em;
+}
+.Skills {
+    display:grid;
+    grid-template: 2fr 1fr 2fr;
+}
+.onestColumn {
+    grid-column: 1/2;
+}
+.secondColumn{
+    grid-column: 3/4;
+}
+.moreSpace {
+    grid-column: 2/3;
 }

@@ -19,17 +19,36 @@ const BodyContainer1 = props => (
 						<div className="col-md-4">
 							<div className="attractionBlock">
 								<i class="fa fa-circle-o-notch" aria-hidden="true"></i>
-								<h3>Professional Blog</h3>
-								<p></p><p>Here I talk about the main topics of Programing, Social Psychology, Biohacking, and Keto Lifestyle,<br></br><br></br> all backed by scientific studies.	 </p><p></p>
+								<h3>Skills</h3>
+								<div className='Skills'>
+									<ul className='onestColumn'>
+									<li>HTML5</li>
+									<li>CSS3</li>
+									<li>JavsScript</li>
+									<li>React</li>
+									<li>Python</li>
+									</ul>
+									<div className='moreSpace'></div>
+									<ul className='secondColumn'>
+									<li>Ruby</li>
+									<li>Ruby on Rails</li>
+									<li>Git Version Control</li>
+									<li>Node.js</li>
+									<li>SQL</li>
+									<li>MySQL</li>
+									</ul>
+								</div>
 								<p><a href="X">Blog</a></p><p><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> <i class="fa fa-thumbs-o-down" aria-hidden="true"></i></p>
 							</div>
 						</div>
 						<div className="col-md-4">
 							<div className="attractionBlock">
 								<i class="fa fa-circle-o-notch" aria-hidden="true"></i>
-								<h3>Entertainment</h3>
-								<p></p><p>We feature over 100 shows daily on 12 stages. Hold your breath watching the dueling swordsmen, daring fire jugglers.</p><p></p>
-								<p><a href="xS">View Shows</a></p><p><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> <i class="fa fa-thumbs-o-down" aria-hidden="true"></i></p>
+								<h3>Projects</h3>
+								<p></p><p>
+									Here is going to be a scrap from my github
+									</p><p></p>
+								<p><a href="">View Projects</a></p><p><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> <i class="fa fa-thumbs-o-down" aria-hidden="true"></i></p>
 							</div>
 						</div>
 				</div>
